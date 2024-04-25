@@ -70,6 +70,9 @@ def retrain(): # Rutarlo al endpoint '/api/v1/retrain/', metodo GET
 @app.route('/webhook_2024', methods=['POST'])
 def webhook():
     # Ruta al repositorio donde se realizará el pull
+    
+    # ¡¡¡¡¡SORPRESA!!!!!
+    
     path_repo = '/home/albertoromv/api_remota2/pythonanywhere2/'
     servidor_web = '/var/www/albertoromv_pythonanywhere_com_wsgi.py' 
 
