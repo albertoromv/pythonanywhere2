@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.config['DEBUG'] = True
 
 
-path_base = "/home/dsonlineli/Taller_Despliegue/"
+path_base = "/home/albertoromv/api_remota2/pythonanywhere2/"
 
 
 # Enruta la landing page (endpoint /)
